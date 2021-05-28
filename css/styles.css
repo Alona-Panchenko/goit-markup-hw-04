@@ -167,6 +167,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   text-decoration: none;
+  align-items: center;
+  display: flex;
 }
 .auth-nav-link:hover,
 .auth-nav-link:focus {
@@ -297,6 +299,16 @@ img {
   color: var(--second-text-color);
 }
 
+.example:hover,
+.example:focus {
+  box-shadow: var(--card-shadow);
+  cursor: pointer;
+}
+
+.object {
+  text-decoration: none;
+  color: inherit;
+}
 /* Герой */
 
 .hero {
@@ -586,6 +598,7 @@ footer {
 
 .flex-box {
   display: flex;
+  align-items: baseline;
 }
 
 .invite {
